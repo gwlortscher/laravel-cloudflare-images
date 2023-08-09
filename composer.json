@@ -1,6 +1,6 @@
 {
   "name": "koraycicekciogullari/laravel-cloudflare-images",
-  "description": "Cloudflare Images package for Laravel 9.",
+  "description": "Cloudflare Images for Flysystem",
   "license": "MIT",
   "version": "1.0.0",
   "keywords": [
@@ -16,9 +16,9 @@
     }
   ],
   "require": {
-    "php": ">=8.0",
-    "illuminate/support": "^8.0|^9.0",
-    "laravel/framework": "^9.0"
+    "php": ">=8.1",
+    "illuminate/support": "^10.0",
+    "laravel/framework": "^10.0"
   },
   "require-dev": {
     "orchestra/testbench": "^4.0|^5.0|^6.0",
@@ -41,7 +41,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Koraycicekciogullari\\LaravelCloudflareImages\\ServiceProvider"
+        "koraycicekciogullari\\LaravelCloudflareImages\\ServiceProvider"
       ]
     }
   },
