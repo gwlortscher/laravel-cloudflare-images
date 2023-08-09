@@ -41,7 +41,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "koraycicekciogullari\\LaravelCloudflareImages\\ServiceProvider"
+        "Koraycicekciogullari\\LaravelCloudflareImages\\ServiceProvider"
       ]
     }
   },
